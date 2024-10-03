@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="innerinfo">
+        <h1>What animal do you have?</h1>
+        <input class="cow" type="checkbox" value="cow" />Cow
+        <input class="chicken" type="checkbox" value="chicken" />Chicken<br />
+        <button type="submit">Submit</button>
+      </div>
+      <div class="checked">
+        <div class="cowchecked">
+          <p>How many cow do you have</p>
+          <select class="cowvalue">
+            <option disabled hidden selected>Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">3+</option>
+          </select>
+        </div>
+
+        <div class="chickenchecked">
+          <p>How many chicken do you have</p>
+          <select class="chickenvalue">
+            <option disabled hidden selected>Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">3+</option>
+          </select>
+        </div>
+        <button class="none" type="submit">Submit</button>
+      </div>
+      <p class="index"></p>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
+</html>
