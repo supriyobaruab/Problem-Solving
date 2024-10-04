@@ -6,14 +6,33 @@ body {
   min-height: 100vh;
 }
 .container {
+  height: 500px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: beige;
+  padding: 40px;
+  border-radius: 2rem;
+  gap: 5rem;
+}
+.innerinfo button {
+  border-style: none;
+  outline: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+}
+.innerinfo [type="checkbox"] {
+  width: 50px;
+  height: 20px;
 }
 .innerinfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.5rem;
 }
 .cowchecked {
   display: none;
@@ -27,4 +46,28 @@ body {
 .index {
   font-size: 30px;
   text-align: center;
+}
+.cowvalue,
+.chickenvalue {
+  border-style: none;
+  width: 70px;
+  height: 40px;
+  outline: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #36454f;
+}
+.space {
+  padding-top: 100px;
+}
+.none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  background-color: #36454f;
+  color: white;
+  border-radius: 2rem;
+  width: 100%;
+  height: 40px;
 }

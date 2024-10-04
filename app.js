@@ -7,9 +7,11 @@ let button = document.querySelector(".none");
 let savings = 0;
 let show1 = document.querySelector(".chickenchecked");
 let show2 = document.querySelector(".cowchecked");
+let info = document.querySelector(".innerinfo");
 
 btn.addEventListener("click", () => {
   btn.disabled = true;
+  info.style.display = "none";
   if (cow.checked && chicken.checked) {
     console.log("checking");
     show.style.display = "block";
